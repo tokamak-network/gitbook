@@ -56,22 +56,11 @@
     * [Propose](service-guide/staking-and-dao/tokamak-network-dao/propose.md)
     * [Agenda](service-guide/staking-and-dao/tokamak-network-dao/agenda.md)
     * [Contract addresses (영문 링크)](https://docs.tokamak.network/home/service-guide/staking-and-dao/tokamak-network-dao/contract-addresses)
-* [TONStarter](service-guide/tonstarter/README.md)
-  * [Launch (Simplified)](service-guide/tonstarter/launch-simplified/README.md)
-    * [Step1 : Project & Token](service-guide/tonstarter/launch-simplified/step1-project-and-token.md)
-    * [Step2. Token Economy](service-guide/tonstarter/launch-simplified/step2.-token-economy.md)
-    * [Step3. Deploy](service-guide/tonstarter/launch-simplified/step3.-deploy.md)
-  * [TOSv2](service-guide/tonstarter/tosv2/README.md)
-    * [Wallet](service-guide/tonstarter/tosv2/wallet.md)
-    * [Bond](service-guide/tonstarter/tosv2/bond.md)
-    * [Stake](service-guide/tonstarter/tosv2/stake.md)
-    * [DAO (TONStarter)](service-guide/tonstarter/tosv2/dao-tonstarter.md)
-* [Token Faucet (testnet/영문 링크)](https://docs.tokamak.network/home/service-guide/faucet-testnet)
+* [Faucet (testnet)](https://docs.tokamak.network/home/service-guide/faucet-testnet)
 
 ## 📖 Information
 
 * [Get TON](information/get-ton.md)
-* [Get TOS](information/get-tos.md)
 * [Glossary](information/glossary.md)
 * [Link](information/link.md)
 
