@@ -19,7 +19,7 @@ L2StandardTokenFactory address: 0x4200000000000000000000000000000000000000000000
 * Using Titan block explorer, navigate to the `L2StandardTokenFactory` contract page. ([Titan](https://explorer.titan.tokamak.network/) / [Titan Sepolia](https://explorer.titan-sepolia.tokamak.network/address/0x4200000000000000000000000000000000000012/write-contract#address-tabs))
 * You can see the Write Contract tab in the middle of the screen, as shown below.
 
-<figure><img src="../../.gitbook/assets/2.3-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-1.png" alt=""><figcaption></figcaption></figure>
 
 1. Click the Connect wallet button to connect your wallet.
 2. Use the `createStandardL2Token` first function in `L2StandardTokenFactory.` Enter each element in the input box below and click the Write button:&#x20;
@@ -32,25 +32,25 @@ L2StandardTokenFactory address: 0x4200000000000000000000000000000000000000000000
 
 * You can check the transaction sent on the Transactions tab in the middle of the `L2StandardTokenFactory` contract page.
 
-<figure><img src="../../.gitbook/assets/2.3-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-2.png" alt=""><figcaption></figcaption></figure>
 
 
 
 * You can click on the transaction that takes you to the Transaction details page, where you can see the details of the transaction.
 
-<figure><img src="../../.gitbook/assets/2.3-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-3.png" alt=""><figcaption></figcaption></figure>
 
 
 
 * You can see the value you entered in the middle of the transaction page. You'll see what you entered, as shown in the image below.
 
-<figure><img src="../../.gitbook/assets/2.3-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-4.png" alt=""><figcaption></figcaption></figure>
 
 
 
 * And just below that, you'll see the Internal Transactions tab. In the below screenshot, the red boxed area is the `L2Token` that was created. The screenshot below shows the name, but it might look like an address in your case.
 
-<figure><img src="../../.gitbook/assets/2.3-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-5.png" alt=""><figcaption></figcaption></figure>
 
 
 

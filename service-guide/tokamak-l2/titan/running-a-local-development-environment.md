@@ -1,6 +1,6 @@
 # Running a local development environment
 
-To develop smart contracts on Titan L2, it is necessary to create an L2 development environment. While setting the development environment for L1 (Ethereum) is relatively simple, using tools such as Ganache or hardhat-node, L2 development environment requires additional resources. This section explains how to create a Titan L2 development environment in a Linux-based environment.
+To develop smart contracts on Thanos L2, it is necessary to create an L2 development environment. While setting the development environment for L1 (Ethereum) is relatively simple, using tools such as Ganache or hardhat-node, L2 development environment requires additional resources. This section explains how to create a Titan L2 development environment in a Linux-based environment.
 
 Titan supports L2 network deployment through simple command execution. This allows users to easily manage the network without complicated setup tasks. In addition, Titan is highly scalable and flexible, allowing developers to adjust the network according to business requirements. These benefits will go a long way in helping developers build the IT infrastructure they need.
 
