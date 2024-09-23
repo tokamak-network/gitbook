@@ -1,6 +1,6 @@
 # How to create a standard ERC20 token in L2
 
-L1과 연동되는 L2의 ERC20 토큰 만드는 방법을 설명하려고 합니다. 표준 ERC20 토큰을 만드는 법과 맞춤형 ERC20 토큰을 만드는 법 두가지를 설명드리겠습니다.
+L1 과 연동되는 L2 의 ERC20 토큰 만드는 방법을 설명하려고 합니다. 표준 ERC20 토큰을 만드는 법과 맞춤형 ERC20 토큰을 만드는 법 두가지를 설명드리겠습니다.
 
 ### 표준 ERC20 토큰을 만드는 법
 
@@ -13,7 +13,7 @@ L2StandardTokenFactory 주소 : 0x4200000000000000000000000000000000000012
 * Titan 블록 익스플로러를 이용하여, `L2StandardTokenFactory` 컨트랙트 페이지로 이동합니다. ([Titan](https://explorer.titan.tokamak.network/address/0x4200000000000000000000000000000000000012) / [Titan Sepolia](https://explorer.titan-sepolia.tokamak.network/address/0x4200000000000000000000000000000000000012/write-contract#address-tabs))
 * 아래와 같이 화면 중간에 Write Contract 탭을 확인하실 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/2.3-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-1.png" alt=""><figcaption></figcaption></figure>
 
 1. Connect wallet 버튼을 클릭하여, wallet 연결을 합니다.
 2. 1번 `createStandardL2Token` 함수를 이용합니다. 아래 입력박스에 각 요소를 입력하고, Write 버튼을 클릭합니다.
@@ -26,19 +26,19 @@ L2StandardTokenFactory 주소 : 0x4200000000000000000000000000000000000012
 
 * `L2StandardTokenFactory` 컨트랙트 페이지의 중간에 Transactions 탭에서 전송된 트랜잭션을 확인 할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/2.3-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-2.png" alt=""><figcaption></figcaption></figure>
 
 * 해당 트랜잭션을 클릭하면 트랜잭션 내용 페이지로 이동하면 트랜잭션 상세 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/2.3-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-3.png" alt=""><figcaption></figcaption></figure>
 
 * 트랜잭션 페이지의 중간에 입력한 값을 확인할 수 있습니다. 아래 그림과 같이 입력한 내용이 확인 됩니다.
 
-<figure><img src="../../.gitbook/assets/2.3-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-4.png" alt=""><figcaption></figcaption></figure>
 
 * 그리고 바로 아래 Internal Transactions 탭이 보입니다. 아래 그림에서 빨간 박스 부분이 만들어진 `L2Token` 입니다. 아래 화면은 이름이 표시되어 있지만 여러분의 경우는 주소로 보일 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/2.3-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.3-5.png" alt=""><figcaption></figcaption></figure>
 
 * 그럼 위에서 보이는 L2토큰을 verify 하는 방법을 알려드리겠습니다. 이부분은 하지 않으셔도 무관합니다.
 * 이 방법은 hardhat 사용 지식이 있는 분들을 대상으로 합니다. (만약 hardhat 사용경험이 없으신 분들은 아래 브릿지 토큰 등록시 verify 요청란에 체크하시면 팀에서 verify 합니다.)
