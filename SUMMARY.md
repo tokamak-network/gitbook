@@ -29,7 +29,7 @@
     * [Standard ERC20](service-guide/tokamak-l2/thanos-testnet/standard-erc20.md)
     * [Bridging L1 and L2 (Portal)](service-guide/tokamak-l2/thanos-testnet/bridging-l1-and-l2-portal.md)
     * [Networks and public endpoints](service-guide/tokamak-l2/thanos-testnet/networks-and-public-endpoints.md)
-    * [Contract addresses](service-guide/tokamak-l2/thanos-testnet/contract-addresses.md)
+    * [Contract addresses (testnet)](service-guide/tokamak-l2/thanos-testnet/contract-addresses-testnet.md)
 * [Tokamak Bridge](service-guide/tokamak-bridge/README.md)
   * [Bridge](service-guide/tokamak-bridge/bridge/README.md)
     * [Deposit](service-guide/tokamak-bridge/bridge/deposit.md)
