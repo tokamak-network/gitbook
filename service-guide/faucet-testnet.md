@@ -4,7 +4,6 @@ You can request Sepolia testnet tokens [here](https://sepolia.etherscan.io/addre
 
 * Faucet will send you
   * 1200 TON
-  * 100 TOS
   * 100 USDC
   * 100 USDT
 * Faucet accepts one request every 24 hours per account. If you have any leftover tokens or ETH, you can send it directly to the Faucet contract
