@@ -36,6 +36,10 @@ Thanos supports L2 network deployment through simple command execution. This all
 
 * [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
 
+**Python 3**
+
+* [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
 #### pnpm
 
 * [https://pnpm.io/installation](https://pnpm.io/installation)
