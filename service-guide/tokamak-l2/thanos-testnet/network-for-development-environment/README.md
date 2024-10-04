@@ -36,6 +36,10 @@ Thanos 는 간단한 명령어 실행을 통한 L2 네트워크 구축을 지원
 
 * [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
 
+**Python 3**
+
+* [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
 #### pnpm
 
 * [https://pnpm.io/installation](https://pnpm.io/installation)
@@ -74,3 +78,7 @@ make devnet-down
 # down the network and remove generated files
 make devnet-clean
 ```
+
+{% hint style="info" %}
+만약 local 환경에서 blob을 지원하는 devnet을 구축하고 싶다면&#x20;
+{% endhint %}
