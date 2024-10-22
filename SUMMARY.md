@@ -11,6 +11,7 @@
 * [Tokamak L2](service-guide/tokamak-l2/README.md)
   * [Titan](service-guide/tokamak-l2/titan/README.md)
     * [What is different](service-guide/tokamak-l2/titan/what-is-different.md)
+    * [L2 relay and rollup configuration](service-guide/tokamak-l2/titan/l2-relay-and-rollup-configuration.md)
     * [L2 fee](service-guide/tokamak-l2/titan/l2-fee.md)
     * [Gas estimation](service-guide/tokamak-l2/titan/gas-estimation.md)
     * [Running a local development environment](service-guide/tokamak-l2/titan/running-a-local-development-environment.md)
