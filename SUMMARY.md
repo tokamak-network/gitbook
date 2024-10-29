@@ -60,6 +60,14 @@
     * [Agenda](service-guide/staking-and-dao/tokamak-network-dao/agenda.md)
     * [Contract addresses](service-guide/staking-and-dao/tokamak-network-dao/contract-addresses.md)
     * [Contract addresses (testnet)](service-guide/staking-and-dao/tokamak-network-dao/contract-addresses-testnet.md)
+* [Rollup Hub](service-guide/rollup-hub/README.md)
+  * [Parameter Definitions](service-guide/rollup-hub/parameter-definitions.md)
+  * [Devnet](service-guide/rollup-hub/devnet/README.md)
+    * [Discover (L2 Stack)](service-guide/rollup-hub/devnet/discover-l2-stack.md)
+    * [Step-by-Step Guide](service-guide/rollup-hub/devnet/step-by-step-guide.md)
+  * [Testnet (Coming Soon)](service-guide/rollup-hub/testnet-coming-soon.md)
+  * [Mainnet (Coming Soon)](service-guide/rollup-hub/mainnet-coming-soon.md)
+  * [Troubleshooting](service-guide/rollup-hub/troubleshooting.md)
 * [Faucet (testnet)](service-guide/faucet-testnet.md)
 
 ## 📖 Information
