@@ -19,7 +19,7 @@ description: Tokamak Rollup Hub를 통해 자체 롤업을 배포하는데 필�
 
 최소 요구 사항으로도 배포할 수 있지만, 최소한 권장 사항 이상의 하드웨어로 배포하는 것을 추천합니다.
 
-### **프로세스 가이드(Devnet 배포용)**
+### **프로세스 가이드**
 
 Devnet 배포를 시작하기 전에 종속성(Dependencies)이 설치되어 있는지 확인하세요. 최소 버전 이상이 설치되지 않은 경우 아래에서 단계별 가이드를 제대로 따르셨다고 하더라도 원활한 설치 및 동작이 진행되지 않을 수 있습니다.
 
@@ -38,31 +38,39 @@ Devnet 배포를 시작하기 전에 종속성(Dependencies)이 설치되어 있
     | [jq](https://github.com/jqlang/jq)                            | `^1.6`            | `최소 버전 이상`            | jq --version     |
     | [direnv](https://direnv.net/)                                 | `^2`              | `최소 버전 이상`            | direnv --version |
 
-    1. Devnet을 배포하기 전에 먼저 시스템 실행에 필요한 소프트웨어를 설치하고 버전을 확인해야 합니다. 배포를 진행하기 전에 적절한 버전이 설치되어 있는지 확인하시기 바랍니다.
+    1.  Devnet을 배포하기 전에 먼저 시스템 실행에 필요한 소프트웨어를 설치하고 버전을 확인해야 합니다. 배포를 진행하기 전에 적절한 버전이 설치되어 있는지 확인하시기 바랍니다.\
+        \
+        ※ Mac OS / Linux 사용자의 경우 원스텝 설치가 가능하도록 스크립트를 미리 구성해두었습니다. 아래 2단계에 따라 리포지토리를 Git clone한 후 다음 스크립트를 입력하여 설치를 완료하세요.
 
-    ※ Mac OS 사용자의 경우 원스텝 설치가 가능하도록 스크립트를 미리 구성해두었습니다. 아래 2단계에 따라 리포지토리를 Git clone한 후 다음 스크립트를 입력하여 설치를 완료하세요.
+        <pre class="language-bash"><code class="lang-bash"><strong>cd tokamak-thanos
+        </strong>./install-devnet-packages.sh
+        </code></pre>
+    2.  아래 리포지토리를 로컬로 배포하려는 PC에 clone합니다.
+
+        ```bash
+        git clone <https://github.com/tokamak-network/tokamak-thanos.git>
+        ```
+    3.  Clone한 리포지토리로 이동하여 make build를 입력합니다. 즉시, 롤업 배포를 위한 여러 파일들이 설치됩니다.
+
+        <pre class="language-bash"><code class="lang-bash"><strong>make build
+        </strong></code></pre>
+    4.  모든 작업이 완료되면,  devnet-up을 사용해 롤업을 배포합니다.
+
+        <pre class="language-bash"><code class="lang-bash"><strong>make devnet-up
+        </strong></code></pre>
+
+### **성공적인 배포 후 점검**
+
+배포가 정상적으로 되었는지 확인하는 명령어를 통해 점검해볼 수 있습니다. 다음의 스크립트 입력 이후 응답이 있다면, 롤업이 정상적으로 배포되었음을 의미합니다.
+
+*   L1 체인 점검
+
+    <pre class="language-bash"><code class="lang-bash"><strong>cast chain-id --rpc-url http://localhost:8545
+    </strong></code></pre>
+*   L2 체인 점검
 
     ```bash
-    cd tokamak-thanos
-    ./install-for-mac.sh
-    ```
-
-    1. 아래 리포지토리를 로컬로 배포하려는 PC에 clone합니다.
-
-    ```bash
-    git clone <https://github.com/tokamak-network/tokamak-thanos.git>
-    ```
-
-    1. Clone한 리포지토리로 이동하여 make build를 입력합니다. 즉시, 롤업 배포를 위한 여러 파일들이 설치됩니다.
-
-    ```bash
-    make build
-    ```
-
-    1. 모든 작업이 완료되면 make devnet-up을 입력하여 롤업을 배포합니다.
-
-    ```bash
-    make devnet-up
+    cast chain-id --rpc-url http://localhost:9545
     ```
 
 ### **공개된 개발용 계정**
@@ -84,6 +92,6 @@ Devnet 배포를 간소화하기 위해 사전에 충분한 잔액이 있는 공
 | 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f                 | 0xdbda1821b80551c9d65939329250298aa3472ba22feea921c0cf5d620ea67b97 | 10,000 ETH |
 | 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720                 | 0x2a871d0798f97d79848a013d4936a73bf4cc922c825d33c1cf7073dff6d409c6 | 10,000 ETH |
 
-• Mnemonic : `test test test test test test test test test test test junk`&#x20;
+• Mnemonic: `test test test test test test test test test test test junk`&#x20;
 
-• 파생 경로(Derivation path) : `m/44'/60'/0'/0/`
+• 파생 경로(Derivation path): `m/44'/60'/0'/0/`
