@@ -11,7 +11,7 @@ description: >-
 {% hint style="info" %}
 TON is listed on several CEX. While the ticker name may vary from one CEX to another, they all represent the same [token](https://etherscan.io/token/0x2be5e8c109e2197D077D13A82dAead6a9b3433C5).\
 Listed as **TON**: [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-TON),  [Upbit (Indonesia)](https://id.upbit.com/exchange?code=CRIX.UPBIT.IDR-TON)\
-Listed as **TOKAMAK**: [Poloniex](https://poloniex.com/trade/TOKAMAK_USDT?type=spot), [Coinone](https://coinone.co.kr/exchange/trade/tokamak/krw), [Bithumb](https://www.bithumb.com/react/trade/order/TOKAMAK-KRW)
+Listed as **TOKAMAK**: [Poloniex](https://poloniex.com/trade/TOKAMAK_USDT?type=spot), [Coinone](https://coinone.co.kr/exchange/trade/tokamak/krw), [bithumb](https://www.bithumb.com/react/trade/order/TOKAMAK-KRW)
 {% endhint %}
 
 ### 2. DEX
