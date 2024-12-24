@@ -10,7 +10,7 @@ description: TON은 중앙화거래소에서 구입하거나, 탈중앙화거래
 TON은 여러 CEX에서 구매 가능합니다. 티커 이름은 CEX마다 다르지만, 모두 동일한 TON [토큰](https://etherscan.io/token/0x2be5e8c109e2197D077D13A82dAead6a9b3433C5) 입니다.
 
 **TON 티커**: 2024년 12월 19일 이후부터는 없음.\
-**TOKAMAK 티커**: [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-TON),  [Upbit (Indonesia)](https://id.upbit.com/exchange?code=CRIX.UPBIT.IDR-TON), [Poloniex](https://poloniex.com/trade/TOKAMAK_USDT?type=spot), [Coinone](https://coinone.co.kr/exchange/trade/tokamak/krw), [bithumb](https://www.bithumb.com/react/trade/order/TOKAMAK-KRW)
+**TOKAMAK 티커**: [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-TON),  [Upbit (Indonesia)](https://id.upbit.com/exchange?code=CRIX.UPBIT.IDR-TON), [Poloniex](https://poloniex.com/trade/TOKAMAK_USDT?type=spot), [Coinone](https://coinone.co.kr/exchange/trade/tokamak/krw), [bithumb](https://www.bithumb.com/react/trade/order/TOKAMAK-KRW), [DigiFinex](https://t.co/B544IrEUHY)
 {% endhint %}
 
 ### 2. DEX
