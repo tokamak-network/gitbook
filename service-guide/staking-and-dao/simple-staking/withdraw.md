@@ -49,7 +49,7 @@ description: 스테이킹된 TON을 인출(withdraw) 하는 과정을 소개합�
 
 * Metamask 팝업의 컨펌 버튼을 클릭하여 거래를 완료합니다.&#x20;
 
-### **3. 스테이킹 재설정 (**Restake)
+### **3. 스테이킹 재설정 (**&#x52;estake)
 
 스테이킹 해제(unstake)를 실시한 이후, 인출(withdraw)을 하지 않았다면 언제든지 스테이킹을 다시 할 수 있습니다. 이러한 인출대기 물량은 Restake 버튼을 누르면 나타나는 팝업창에서 Restakable Amount라는 이름으로 나타나게 됩니다.&#x20;
 
