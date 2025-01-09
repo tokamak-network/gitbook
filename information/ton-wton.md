@@ -15,6 +15,7 @@ description: TON ↔ WTON 이더스캔 가이드입니다.
 
       2. Spender 에 입력할 주소 : [0xc4A11aaf6ea915Ed7Ac194161d2fC9384F15bff2](https://etherscan.io/address/0xc4A11aaf6ea915Ed7Ac194161d2fC9384F15bff2) (고정값, WTON Contract)
       3. Amount : WTON으로의 변환을 허용하고자 하는 최대금액을 입력합니다. (TON의 소숫점은 18자리까지 표시가능 합니다.)
+         * 예 : 1000000000000000000 (1 TON)
    2. Step 2 : swapFromTON&#x20;
       1.  [swapFromTON](https://etherscan.io/address/0xc4a11aaf6ea915ed7ac194161d2fc9384f15bff2#writeContract#F18)을 방문합니다.
 
@@ -30,3 +31,4 @@ description: TON ↔ WTON 이더스캔 가이드입니다.
 
 
    2. wtonAmount : TON으로 변환하고자 하는 WTON의 양을 입력하세요  (WTON의 소숫점은 27자리까지 표시가능 합니다.)
+      * 예 : 1000000000000000000000000000 (1 WTON)
