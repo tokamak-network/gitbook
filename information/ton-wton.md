@@ -15,6 +15,7 @@ You can wrap TON into WTON or unwrap WTON back into TON via Etherscan.&#x20;
 
       2. Spender : [0xc4A11aaf6ea915Ed7Ac194161d2fC9384F15bff2](https://etherscan.io/address/0xc4A11aaf6ea915Ed7Ac194161d2fC9384F15bff2) (fix value, WTON Contract)
       3. Amount : Amount to swap TON to WTON (TON decimal is 18)
+         * Example : 1000000000000000000 (1 TON)
    2. Step 2 : swapFromTON&#x20;
       1.  Visit [swapFromTON ](https://etherscan.io/address/0xc4a11aaf6ea915ed7ac194161d2fc9384f15bff2#writeContract#F18)
 
@@ -30,3 +31,4 @@ You can wrap TON into WTON or unwrap WTON back into TON via Etherscan.&#x20;
 
 
    2. wtonAmount : Amount to swap WTON to TON (WTON decimal is 27)
+      * Example : 1000000000000000000000000000 (1 WTON)
