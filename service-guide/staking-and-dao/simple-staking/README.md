@@ -59,7 +59,7 @@ description: 토카막 네트워크가 제공하는 스테이킹 시스템을 �
 
 1. 메타마스크로 당사 서비스에 연결하려면 [Google Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) 또는 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)브라우저에 메타마스크 확장 프로그램을 설치하세요. 이미 메타마스크 지갑에 TON이 있는 경우 해당 지갑에 로그인하거나 이미 TON이 있는 계정(account)을 가져오세요.
 
-<img src="../../../.gitbook/assets/image (1).png" alt="Metamask in Google Chrome Extenstion" data-size="original">
+<img src="../../../.gitbook/assets/image (1) (1).png" alt="Metamask in Google Chrome Extenstion" data-size="original">
 
 2. 지갑에 TON을 추가하려면 이더리움 메인넷 네트워크에 연결되어 있는지 확인하세요. 그런 다음 토큰 추가 버튼을 클릭합니다.
 3. Custom Token 탭을 클릭합니다.&#x20;
@@ -68,7 +68,7 @@ description: 토카막 네트워크가 제공하는 스테이킹 시스템을 �
 5. Next 버튼을 클릭합니다.&#x20;
 6. 토큰 추가 버튼을 눌러 계정에 TON을 추가합니다.
 
-<img src="../../../.gitbook/assets/image (4).png" alt="How to add TON in your wallet" data-size="original">
+<img src="../../../.gitbook/assets/image (4) (1).png" alt="How to add TON in your wallet" data-size="original">
 
 </details>
 
