@@ -60,6 +60,7 @@
 ## 📖 Information
 
 * [Get TON](information/get-ton.md)
+* [TON ↔ WTON](information/ton-wton.md)
 * [Glossary](information/glossary.md)
 * [Link](information/link.md)
 
