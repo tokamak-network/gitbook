@@ -6,13 +6,11 @@ This page provides information on how the various components of Thanos Stack int
 
 ### Overview
 
-The Thanos Stack comprises the following fundamental modules: op-node, op-proposer, op-geth, op-batcher, op-challenger, and the optional proxyd.
+The Thanos Stack comprises the following fundamental modules: op-node, op-proposer, op-geth, op-batcher.
 
-In addition, optional components like graph-node and IPFS are primarily used for supporting L2 DApps. These services, however, are not directly related to the core architecture of the Thanos Stack.
+The diagram below illustrates how the core components: op-node, op-proposer, op-geth, op-batcher interact:
 
-The diagram below illustrates how the core components: op-node, op-proposer, op-geth, op-batcher, and op-challenger interact:
-
-<figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image.webp" alt=""><figcaption></figcaption></figure>
 
 ### Components
 
@@ -38,31 +36,3 @@ The [`op-geth`](https://github.com/tokamak-network/tokamak-thanos/blob/main/op-e
 #### op-batcher
 
 The [`op-batcher`](https://github.com/tokamak-network/tokamak-thanos/tree/main/op-batcher) is a service responsible for submitting L2 block data to L1 to ensure data availability for verifiers while minimizing costs. It bundles and compresses L2 transactions before posting them to L1, using blob transactions in the Thanos stack for gas efficiency. Working in conjunction with the sequencer, the data availability layer, and the pipeline, the op-batcher supports the progression of the safe chain by optimizing data submission and maintaining availability.
-
-#### op-challenger
-
-The [`op-challenger`](https://github.com/tokamak-network/tokamak-thanos/tree/main/op-challenger) is an agent in the fault dispute system that defends the chain by verifying output root proposals, challenging invalid ones, and resolving claims in dispute games. It relies on a synced rollup node and trace provider for claim verification and works with the op-proposer to resolve claims after the time limit expires. The op-challenger ensures the correct state of the chain by defending valid proposals and assisting in the resolution of fault disputes.
-
-Its key responsibilities include
-
-* Monitoring and interacting with dispute games.
-* Defending valid output root proposals.
-* Challenging invalid output root proposals.
-* Resolving Fault Dispute Games.
-* Claiming payout bonds for both challengers and proposers.
-
-#### L1 Proxyd
-
-[`proxyd`](https://github.com/tokamak-network/tokamak-thanos/tree/main/proxyd) functions as a proxy server to route requests to **op-geth**. It facilitates efficient management of RPC services between L2 components, ensuring performance, fault tolerance, and security.
-
-The diagram below illustrates how **proxyd** interacts with **op-geth** and \*\*\*\*end users.
-
-<figure><img src="../../../../../.gitbook/assets/Screenshot from 2024-12-19 22-04-37.png" alt=""><figcaption></figcaption></figure>
-
-#### Graph Node
-
-`Graph node` enables efficient indexing and querying of blockchain data within the Thanos Stack, allowing fast access to event and transaction data. Through the integration of Graphnode, Thanos Stack can interact with blockchain information and query it efficiently, making the system more flexible and scalable.
-
-#### IPFS
-
-**`IPFS`**, when combined with the Thanos Stack, provides decentralized and efficient file storage. This integration ensures that large datasets, such as off-chain data, are securely stored and accessed in a distributed manner, complementing the blockchain's capabilities within the Thanos Stack.
