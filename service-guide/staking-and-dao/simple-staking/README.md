@@ -21,7 +21,7 @@ Tokamak Network’s staking is used to select the DAO committee members that can
 
 ### 2. Page Information
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>The initial screen of the staking page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>The initial screen of the staking page</p></figcaption></figure>
 
 1. **Home**
 
@@ -44,7 +44,7 @@ The information provided is as follows:
 * Pending Withdrawal: This is the total amount of Unstake TON. This amount can only be withdrawn after the withdrawal delay period set by the DAO candidate (default is after 93,046 blocks, about 14 days) has passed.
 * History: This shows the transaction history related to staking. This information includes transaction hash, related DAO candidate (Candidate), type, amount, and execution time.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Wallet and history</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Wallet and history</p></figcaption></figure>
 
 ### **3. Login**
 
@@ -58,4 +58,4 @@ You must first log in through wallet connection to access some features like sta
 
     * Connect to Trezor wallet
 
-    <figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="188"><figcaption><p>Wallet option</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="188"><figcaption><p>Wallet option</p></figcaption></figure>

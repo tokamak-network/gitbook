@@ -18,12 +18,12 @@ Sometimes, users say that even after waiting about two weeks (Withdrawal delay p
 
 * When you press the Unstake button, a pop-up appears.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * When the pop-up window appears, enter the amount of TON to be unstaked.&#x20;
 * Click the Unstake button.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt="" width="148"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt="" width="148"><figcaption></figcaption></figure>
 
 * Click the confirm button in the Metamask popup that opens in the Metamask extension of the browser.&#x20;
 
@@ -38,7 +38,7 @@ Before unstaking, check if there are any unclaimed staking rewards
 
 * You can withdraw after 93,046 blocks (\~14 days) from unstaking. When you press the Withdraw button, a pop-up window appears.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * The amount ready for withdrawal is shown in the Withdrawable Balance. This is the amount that has undergone the two-week delay period after unstaking.
 * If you press the Withdraw button, the whole amount available for withdrawal is taken out. Partial withdrawal is not an option.
@@ -51,7 +51,7 @@ Before unstaking, check if there are any unclaimed staking rewards
 
 After unstaking, you can restake at any time, provided you haven't made the withdrawal. The pending withdrawal amount will be displayed as 'Restakable Amount' in the pop-up window when you click the Restake button.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * When you click the Restake button, a popup will appear.&#x20;
 * The amount that can be restaked is displayed under the Restakable Amount. You can apply Restake to this entire amount at once, but not to just a portion of it.&#x20;

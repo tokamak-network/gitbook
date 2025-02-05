@@ -42,7 +42,7 @@ There is a simulator in the upper right corner of the staking screen. With this,
 * To recalculate, click the Recalculate button.&#x20;
 * When you click the Stake button, a popup window as below appears, and the quantity entered in the simulator is displayed identically, so you can conveniently execute staking immediately (quantity modification is also possible). You can stake TON or WTON.
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 When you press the Stake button, a Metamask popup window opens in the browser's Metamask extension. Complete the staking by clicking confirm.
 
