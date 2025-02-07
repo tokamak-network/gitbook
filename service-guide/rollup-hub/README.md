@@ -9,7 +9,7 @@ Service URL
 
 * Website: [https://rolluphub.tokamak.network/](https://rolluphub.tokamak.network/)
 * Github: [https://github.com/tokamak-network/tokamak-rollup-hub](https://github.com/tokamak-network/tokamak-rollup-hub)&#x20;
-* Discord channel: [https://discord.gg/UbFFKucu](https://discord.gg/UbFFKucu)
+* Discord channel: [https://discord.gg/J5jC9gJpYb](https://discord.gg/J5jC9gJpYb)
 {% endhint %}
 
 **Empowering Developers and Users with Customized L2 Rollup Solutions**
